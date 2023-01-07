@@ -6,8 +6,8 @@ const Socials = () => {
   return (
     <div className='socials'>
       <a href="https://twitter.com/AyushmanGarg4" target={'blank'}><FiTwitter/></a>
-      <a href="https://twitter.com/AyushmanGarg4" target={'blank'}><GrLinkedinOption/></a>
-      <a href="https://twitter.com/AyushmanGarg4" target={'blank'}><FiGithub/></a>
+      <a href="https://www.linkedin.com/in/ayushmangarg/" target={'blank'}><GrLinkedinOption/></a>
+      <a href="https://github.com/ayushmangarg2003" target={'blank'}><FiGithub/></a>
     </div>
   )
 }
