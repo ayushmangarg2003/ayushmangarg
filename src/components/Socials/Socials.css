@@ -1,0 +1,15 @@
+.socials{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    font-size: 1.75rem;
+    margin-top: 2rem;
+}
+.socials a{
+    color: rgb(116, 116, 116);
+    transition: 0.2s ease;
+}
+.socials a:hover{
+    color: #252525;
+    scale: 1.05;
+}

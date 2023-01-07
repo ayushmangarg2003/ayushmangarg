@@ -1,0 +1,80 @@
+.btn{
+    font-size: 1rem;
+    background-color: teal;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 15px;
+}
+.projectcard{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: 80%;
+    /* overflow: hidden; */
+}
+.left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+}
+.left h1{
+    font-size: 2rem;
+    font-family: 'Reggae One', cursive;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+.buttons{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.right{
+    width: 50%;
+}
+.right:hover img{
+    transform: translateY(-10px);
+    box-shadow:  -11px -11px 22px rgba(0, 0, 0, 0.2),
+    11px 11px 22px rgba(0, 0, 0, 0.2);}
+.right a img{
+    width: 100%;
+    border-radius: 1rem;
+    aspect-ratio: inherit;
+    transition: 0.3s ease;
+
+}
+@media screen and (max-width:900px) {
+    .projectcard{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .projectcard{
+        flex-direction: column-reverse;
+    }
+    .left{
+        width: 100%;
+    }
+    .left h1{
+        font-size:2rem;
+    }
+    .right{
+        width: 100%;
+    }
+}
+@media screen and (max-width:500px) {
+    .left h1{
+        font-size:1.25rem;
+    }
+    .buttons{
+        gap: 0.25rem;
+    }
+    .btn{
+       scale: 0.8;
+    }
+}

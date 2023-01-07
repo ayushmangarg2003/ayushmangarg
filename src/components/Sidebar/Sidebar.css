@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sidebar{
+    width: 200px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    position: fixed;
+    font-size: 1.75rem;
+}
+.sidebar a{
+    text-decoration: none;
+    color: #9c9c9c;
+    transition: 0.2s ease;
+}
+.sidebar a:hover{
+    color: #151515;
+    scale: 1.05;
+}
+
+@media screen and (max-width:700px) {
+    .sidebar{
+        flex-direction: row;
+        width:100%;
+        gap: 4rem;
+        position: absolute;
+        position: fixed;
+        border-radius: 8px;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 0;
+        height: 5rem;
+    }
+}
+@media screen and (max-width:300px) {
+    .sidebar{
+        gap: 2.5rem;
+    }
+}

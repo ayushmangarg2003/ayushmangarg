@@ -1,0 +1,22 @@
+.skills{
+    margin-top: 4rem;
+}
+.skills h1{
+    font-size: 2rem;
+    font-family: 'Reggae One', cursive;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.skillsBtn{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.btn{
+    font-size: 1rem;
+    background-color: teal;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 15px;
+}
