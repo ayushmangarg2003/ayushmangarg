@@ -4,17 +4,10 @@
     color: #656565;
     margin-bottom: 0.5rem;
     line-height: 1.75rem;
-    padding-right: 10rem;
-}
-@media screen and (max-width:700px) {
-    .paragraph{
-        font-size: 1rem;
-        padding-right: 5rem;
-    }
+    padding-right: 1rem;
 }
 @media screen and (max-width:500px) {
     .paragraph{
         font-size: 1rem;
-        padding-right: 1.5rem;
     }
 }
