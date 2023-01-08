@@ -10,8 +10,7 @@
     display: flex;
     justify-content: space-between;
     height: auto;
-    width: 80%;
-    /* overflow: hidden; */
+    width: 100%;
 }
 .left{
     width: 50%;
@@ -47,13 +46,8 @@
     transition: 0.3s ease;
 
 }
-@media screen and (max-width:900px) {
-    .projectcard{
-        width: 100%;
-    }
-}
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:1200px) {
     .projectcard{
         flex-direction: column-reverse;
     }
