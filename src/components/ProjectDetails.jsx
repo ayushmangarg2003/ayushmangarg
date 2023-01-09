@@ -120,13 +120,13 @@ const projectDetails = [
         imgsrc: PersonalPortfolio,
         link: "https://ayushmangarg2003.github.io/PersonalPortfolio/",
     },
-    // {
-    //     name: "Binary Brains",
-    //     text: "This was the Project I made in my first Hackaton. It was an online hackaton and we achieved 5th rank",
-    //     tags: ["HTML", "CSS" , "JavaScript", "Hackaton"],
-    //     imgsrc: BinaryBrains,
-    //     link: "https://ayushmangarg2003.github.io/BinaryBrains/",
-    // },
+    {
+        name: "Binary Brains",
+        text: "This was the Project I made in my first Hackaton. It was an online hackaton and we achieved 5th rank",
+        tags: ["HTML", "CSS" , "JavaScript", "Hackaton"],
+        imgsrc: BinaryBrains,
+        link: "https://ayushmangarg2003.github.io/BinaryBrains/",
+    },
     {
         name: "Karobar Website",
         text: "This is a single page website which I make to improve my CSS skills",
@@ -190,13 +190,13 @@ const projectDetails = [
     //     imgsrc: DigitalClock,
     //     link: "https://ayushmangarg2003.github.io/DigitalClock/",
     // },
-    {
-        name: "TextUtils",
-        text: "This was the project through which I was introduced to ReactJs, I used Bootstrap in this project",
-        tags: ["React", "Bootstarp"],
-        imgsrc: TextUtils,
-        link: "https://ayushmangarg2003.github.io/textutils/",
-    },
+    // {
+    //     name: "TextUtils",
+    //     text: "This was the project through which I was introduced to ReactJs, I used Bootstrap in this project",
+    //     tags: ["React", "Bootstarp"],
+    //     imgsrc: TextUtils,
+    //     link: "https://ayushmangarg2003.github.io/textutils/",
+    // },
     // {
     //     name: "Microsoft Clone",
     //     text: "Clone of Microsoft's Webiste. I made this to improve my styling skills in CSS and learn how to make responsive Designes",
@@ -225,13 +225,13 @@ const projectDetails = [
     //     imgsrc: aCodeBootstrap,
     //     link: "https://ayushmangarg2003.github.io/aCodebootstrap/",
     // },
-    {
-        name: "Memory Game",
-        text: "The famous memory game made using HTML CSS and JavaScript. I made this to improve my command over JavaScript",
-        tags: ["HTML", "CSS" , "JavaScript"],
-        imgsrc: MemoryGame,
-        link: "https://ayushmangarg2003.github.io/MemoryGame/",
-    },
+    // {
+    //     name: "Memory Game",
+    //     text: "The famous memory game made using HTML CSS and JavaScript. I made this to improve my command over JavaScript",
+    //     tags: ["HTML", "CSS" , "JavaScript"],
+    //     imgsrc: MemoryGame,
+    //     link: "https://ayushmangarg2003.github.io/MemoryGame/",
+    // },
 ];
 
 export default projectDetails;
