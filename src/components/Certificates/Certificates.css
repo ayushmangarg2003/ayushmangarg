@@ -1,0 +1,45 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 2rem;
+    font-family: 'Reggae One', cursive;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.certificates{
+    width: 100%;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.certificates a{
+    color: black;
+    text-decoration: none;
+}
+
+.certificate{
+    display: flex;
+    transition: 0.2s ease;
+}
+.certificate img{
+    border: 1px solid black;
+}
+.certificate:hover{
+    transform: translateY(-10px);
+    box-shadow:  0px 0px 5px rgba(0, 0, 0, 0.2),
+    0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.certificate-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:10px;
+    padding: 0px 1.5rem;
+}
+.certificate-text h4{
+    font-size: 1.1rem;
+}
+.certificate-text p{
+    color: rgb(97, 97, 97);
+}
