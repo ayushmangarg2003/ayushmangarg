@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 2rem;
+}
+img{
+    box-shadow: #32CD32 -15px -15px;
+    position: relative;
+    top: -5rem;
+    width: 40%;
+    border-radius: 20px 20px 5px 20px;
+}
+@media screen and (max-width:1300px) {
+    .home{
+        flex-direction: column;
+        justify-content: center;
+        gap: 0;
+        padding: 1rem;
+        margin-bottom: 2.5rem;
+    }
+    img{
+        top: 0;
+        margin-bottom: 2rem;
+        width: 60%;
+    }
+}
+@media screen and (max-width:1000px) {
+    img{
+        width: 75%;
+    }
+}
+@media screen and (max-width:500px) {
+    img{
+        width: 95%;
+    }
+}
