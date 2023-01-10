@@ -9,7 +9,7 @@
     justify-content: flex-end;
     gap: 2rem;
 }
-img{
+.img{
     box-shadow: #32CD32 -15px -15px;
     position: relative;
     top: -5rem;
@@ -24,19 +24,19 @@ img{
         padding: 1rem;
         margin-bottom: 2.5rem;
     }
-    img{
+    .img{
         top: 0;
         margin-bottom: 2rem;
         width: 60%;
     }
 }
 @media screen and (max-width:1000px) {
-    img{
+    .img{
         width: 75%;
     }
 }
 @media screen and (max-width:500px) {
-    img{
+    .img{
         width: 95%;
     }
 }
