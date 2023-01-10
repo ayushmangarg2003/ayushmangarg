@@ -9,7 +9,7 @@ const Home = () => {
     <div className="container">
       <Heading heading="Hi There!" />
       <div className='home'>
-        <img src={ProfilePic} alt="Ayushman Garg" />
+        <img className='img' src={ProfilePic} alt="Ayushman Garg" />
         <div className="text">
           <Paragraphs paragraph="I am Ayushman Garg, a Frontend Web Developer from Delhi"/>
           <Socials/>
