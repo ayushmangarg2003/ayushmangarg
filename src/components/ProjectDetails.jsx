@@ -171,7 +171,7 @@ const projectDetails = [
     },
     {
         name: "OlaClone",
-        text: "I created a replica of OLA's website with the aim of enhancing my CSS abilities and gaining knowledge on creating responsive designs."",
+        text: "I created a replica of OLA's website with the aim of enhancing my CSS abilities and gaining knowledge on creating responsive designs.",
         tags: ["HTML", "CSS"],
         imgsrc: OlaClone,
         link: "https://ayushmangarg2003.github.io/OlaClone/",
