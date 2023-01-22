@@ -16,7 +16,8 @@
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 30px;
     padding: 0.5rem 0;
 }
 .left h1{
