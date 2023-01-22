@@ -231,7 +231,7 @@ const projectDetails = [
     //     tags: ["HTML", "CSS" , "JavaScript"],
     //     imgsrc: MemoryGame,
     //     link: "https://ayushmangarg2003.github.io/MemoryGame/",
-    // },
+    //  },
 ];
 
 export default projectDetails;
