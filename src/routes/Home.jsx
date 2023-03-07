@@ -12,7 +12,13 @@ const Home = () => {
       <div className='home'>
         <img className='img' src={ProfilePic} alt="Ayushman Garg" />
         <div className="text">
-          <Paragraphs paragraph={`My name is Ayushman Garg and I am a front-end web developer. I was first introduced to coding during my 11th grade through the programming language Python. I then began learning web development during my first year of college and have since gained experience working with technologies such as HTML, CSS, JavaScript, ReactJs, Bootstrap, and Tailwind. I specialize in creating websites using ReactJS and other front-end tools, but I am also a quick learner and able to adapt to new environments and technologies.`}/>
+          <Paragraphs paragraph={`Hi, My name is Ayushman Garg and I am a MERN stack Web developer.
+
+My passion for computers brought me to Maharaja Agrasen Institute of Technology from where I am pursuing my BTech in Information Technology.
+
+I was first introduced to coding in my 11th grade through the programming language Python. I then began learning web development during my first year of college and have since gained experience working with technologies such as HTML, CSS, JavaScript, ReactJs, MongoDB, ExpressJs, NodeJs,Firebase, Bootstrap, and Tailwind.
+
+I specialize in creating websites using ReactJS and other front-end tools, but I am also a quick learner and able to adapt to new environments and technologies..`}/>
           <Socials/>
         </div>
       </div>
