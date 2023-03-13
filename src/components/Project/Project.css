@@ -24,7 +24,6 @@
     font-size: 2rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    margin-bottom: 0.5rem;
     text-transform: uppercase;
 }
 .buttons{
@@ -64,7 +63,7 @@
 }
 @media screen and (max-width:500px) {
     .left h1{
-        font-size:1.25rem;
+        font-size:1.5rem;
     }
     .buttons{
         gap: 0.20rem;
