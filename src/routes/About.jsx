@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div>
       <Heading heading="About me"/>
-      <div className="para"><Paragraphs paragraph="Hi, I am Ayushman Garg. Please take a look around."/></div>
+      <div className="para"><Paragraphs paragraph="Hi, I am Ayushman Garg, I was first introduced to programming in my 11th grade through Python programming language. I then began learning web development during my first year of college and have since gained experience working with technologies such as HTML, CSS, JavaScript, ReactJs, MongoDB, ExpressJs, NodeJs,Firebase, Bootstrap, and Tailwind."/></div>
       <Certificates/>
       <TechSkills/>
     </div>
