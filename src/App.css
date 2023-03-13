@@ -2,20 +2,23 @@
     display: flex;
 }
 .routes{
-    padding: 7.5rem;
+    padding-top: 7.5rem;
+    padding-right:7.5rem;
     padding-left: 20rem;
     width: 100%;
     height: 100%;
 }
 @media screen and (max-width:1200px) {
     .routes{
-        padding: 5rem;
+        padding-top: 5rem;
+        padding-right:5rem;
         padding-left: 15rem;
     }
 }
 @media screen and (max-width:800px) {
     .routes{
         padding: 2rem;
+        padding-bottom:1rem;
     }
 }
 @media screen and (max-width:500px) {
