@@ -2,17 +2,17 @@
     font-family: 'Reggae One', cursive;
     font-size: 3.5rem;
     color: #252525;
-    padding-bottom: 3rem;
+    padding-bottom: 1.5rem;
 }
 @media screen and (max-width:700px) {
     .heading{
         font-size: 2.75rem;
-        padding-bottom: 2.25rem;
+        padding-bottom: 1rem;
     }
 }
 @media screen and (max-width:300px) {
     .heading{
         font-size: 2.25rem;
-        padding-bottom: 1.5rem;
+        padding-bottom: 0.5rem;
     }
 }
