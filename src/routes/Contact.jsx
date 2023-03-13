@@ -7,12 +7,9 @@ const Contact = () => {
   return (
     <div>
       <Heading heading="Contact" />
-      <Paragraphs paragraph="For work and project related enquiries mail me at: ayushmangarg929@gmail.com" />
-      <Paragraphs paragraph="You can also" />
-      <Paragraphs paragraph="
-Ping me on my social media handles to start a conversation."/>
+      <Paragraphs paragraph="For any work or project-related inquiries, please email me at ayushmangarg929@gmail.com" />
+      <Paragraphs paragraph=" Additionally, feel free to reach out to me on my social media handles to start a conversation."/>
       <Socials />
-
     </div>
   )
 }
