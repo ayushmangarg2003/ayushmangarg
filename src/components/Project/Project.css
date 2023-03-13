@@ -53,8 +53,6 @@
     }
     .left{
         width: 100%;
-        height: auto;
-        gap: 15px;
     }
     .left h1{
         font-size:2rem;
@@ -66,6 +64,11 @@
 @media screen and (max-width:500px) {
     .left h1{
         font-size:1.5rem;
+    }
+    .left{
+        width: 100%;
+        height: auto;
+        gap: 1rem;
     }
     .buttons{
         gap: 0.20rem;
