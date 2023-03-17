@@ -50,6 +50,20 @@ const projectDetails = [
         imgsrc: TechGuy,
         link: "https://responsive-react-homepage.vercel.app/",
     },
+     {
+        name: "TravelArc",
+        text: "This website, developed using React Js, is a multi-page tour and travel platform. The website has been designed with responsiveness in mind and provides optimal user experience in different screen sizes",
+        tags: ["ReactJs", "CSS"],
+        imgsrc:TravelArc,
+        link: "https://travel-arc.vercel.app/",
+    },
+    {
+        name: "VibeType",
+        text: "I have developed a tool called VibeType, which allows users to test and improve their typing speed, using ReactJs for the implementation and CSS for styling.",
+        tags: ["RectJs", "CSS"],
+        imgsrc: VibeTypeApp,
+        link: "https://ayushmangarg2003.github.io/VibeTypeApp/",
+    },
     // {
     //     name: "Expense Tracker",
     //     text: "An app you can use to Track your expenses, it is made using React and styled using CSS, I plan to complete this project once I learn Backend Development",
@@ -64,13 +78,6 @@ const projectDetails = [
     //     imgsrc: UserInterface,
     //     link: "https://user-interface-beta.vercel.app/",
     // },
-    {
-        name: "TravelArc",
-        text: "This website, developed using React Js, is a multi-page tour and travel platform. The website has been designed with responsiveness in mind and provides optimal user experience in different screen sizes",
-        tags: ["ReactJs", "CSS"],
-        imgsrc:TravelArc,
-        link: "https://travel-arc.vercel.app/",
-    },
     // {
     //     name: "TicTacToe",
     //     text: "A basic TicTacToe Game made using HTML CSS and JavaScript , Intention behind making this was to practice some JavaScript",
@@ -78,13 +85,6 @@ const projectDetails = [
     //     imgsrc: TicTacToe,
     //     link: "https://ayushmangarg2003.github.io/TicTacToe/",
     // },
-    {
-        name: "VibeType",
-        text: "I have developed a tool called VibeType, which allows users to test and improve their typing speed, using ReactJs for the implementation and CSS for styling.",
-        tags: ["RectJs", "CSS"],
-        imgsrc: VibeTypeApp,
-        link: "https://ayushmangarg2003.github.io/VibeTypeApp/",
-    },
     // {
     //     name: "Weather App",
     //     text: "An app that gives you the realtime information about the Weather of any City , you just need to enter the name of city  ",
