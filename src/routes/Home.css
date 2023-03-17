@@ -16,6 +16,9 @@
     width: 40%;
     border-radius: 21px 21px 3px 21px;
 }
+.text{
+    width:59%;
+}
 @media screen and (max-width:1300px) {
     .home{
         flex-direction: column;
@@ -34,9 +37,15 @@
     .img{
         width: 70%;
     }
+    .text{
+        width: 90%;
+    }
 }
 @media screen and (max-width:500px) {
     .img{
         width: 90%;
+    }
+    .text{
+        width: 99%;
     }
 }
