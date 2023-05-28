@@ -3,7 +3,7 @@ import Heading from "../components/Heading/Heading"
 import Paragraphs from '../components/Paragraphs/Paragraphs'
 import Socials from '../components/Socials/Socials'
 import "./Home.css"
-import ProfilePic from "../assets/ProfilePic.jpg"
+import ProfilePic from "../assets/profilePic.jpg"
 
 const Home = () => {
   return (
