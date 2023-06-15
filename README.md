@@ -1,7 +1,7 @@
 ## Link of Website
 https://ayushmangarg.vercel.app/  
 
-This is my Portfolio website made using React Js and CSS.
+This is my Portfolio built using React Js and CSS.
 
 ## Screenshot 
 ![Screenshot (43)](https://user-images.githubusercontent.com/105537793/220342922-0a0fe714-9e77-484c-a049-2570eabb5c20.png)
